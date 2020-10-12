@@ -1,0 +1,138 @@
+@media (max-width: 575px){
+    .donation-info{
+        padding-top: 30vh;
+    }
+    .front .image-box{
+        display: none;
+        z-index: -1;
+    }
+    .donate-money .account-container{
+        padding-left: 20px;
+    }
+    .donate-money .account-container .account-details{
+        padding: 20px;
+    }
+    .front div.row{
+        margin-top: 30vh;
+    }
+    .front .image-box .front-image{
+        display: none;
+        z-index: -1;
+    }
+    .donating-section div.row > div:nth-child(2){
+        padding-right: 20px;
+    }
+    .donating-section div.row > div:nth-child(3){
+        padding-left: 20px;
+    }
+    .donation-head{
+        margin-top: 20px;
+    }
+    .navbar .navbar-brand img{
+        transform: scale(0.8);
+        margin-left: -20px;
+    }
+    .front .front-quote h3{
+        font-size: 3.4rem;
+        line-height: normal;
+    }
+    .navbar button{
+        transform: scale(0.8);
+        margin-right: -10px;
+    }
+    .donate-clothes div{
+        font-size: 1.1rem;
+    }
+    .donate-money .qrcode-container{
+        font-size: 1.1rem;
+    }
+    .donate-money .account-container{
+        font-size: 1.1rem;
+    }
+    .donate-money .account-container .account-details{
+        font-size: 1.1rem;
+    }
+    .loader{
+        padding-top: -20px;
+    }
+    .navbar .navbar-nav{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: #040507;
+    }
+    .navbar .navbar-nav .nav-link:last-child{
+        width: 150px;
+    }
+    .want-to-donate .row > div:last-child{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .copyright{
+        font-size: 0.9rem;
+    }
+    .donating-section .row > div{
+        font-size: 1.1rem;
+    }
+    .doners-container ul li{
+        font-size: 1.1rem;
+    }
+    .footer .contact .content{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .front .image-box{
+        display: none;
+        z-index: -1;
+    }
+    .front div.row{
+        margin-top: 30vh;
+    }
+    .front .image-box .front-image{
+        display: none;
+        z-index: -1;
+    }
+    .donating-section div.row > div:nth-child(2){
+        padding-right: 20px;
+    }
+    .donating-section div.row > div:nth-child(3){
+        padding-left: 20px;
+    }
+    .donation-head{
+        margin-top: 20px;
+    }
+    .navbar .navbar-nav{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: #040507;
+    }
+    .navbar .navbar-nav .nav-link:last-child{
+        width: 170px;
+        margin-top: 10px;
+    }
+    .donate-money .account-container .account-details{
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.front .image-box{
+        display: none;
+        z-index: -1;
+    }
+    .front div.row{
+        margin-top: 30vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	.front .image-box .front-image{
+        margin-left: 0px;
+    }
+}
