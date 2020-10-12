@@ -103,7 +103,7 @@ body{
     z-index: 5;
 }
 .front .image-box .front-image{
-    width: 500px;
+    width: 383px;
     height: 250px;
     transform: scale(0.85);
     z-index: 10;
@@ -173,6 +173,9 @@ body{
     text-align: justify;
     letter-spacing: 2px;
     line-height: 1.7;
+}
+.donate-clothes div span{
+    color: var(--secondary-color);
 }
 .donate-clothes div a{
     font-size: 1.3rem;
